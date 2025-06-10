@@ -1,0 +1,159 @@
+*{
+    font-family: 'SF Pro Display';
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.Project{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px dashed darkgray;
+    background-color: #E5E7E9;
+    padding: 8px 0px 0px;
+    color: rgb(122, 122, 122);
+    /* display: block;
+    width: 100%;
+    position: fixed; */
+}
+
+.Project:hover{
+    cursor: not-allowed;
+    color: black;
+}
+/* ? -----Header / NAV BAR------- */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 17vh;
+    background-color: #eeebecf6;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+.logo{
+    padding: 30px;
+    margin-right: 75px;
+
+}
+
+.navbar li{
+    display: inline;
+    justify-content: space-evenly;
+    padding: 0px 43px;
+}
+
+.navbar ul{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 250px;
+    color: rgb(112, 74, 74);
+    cursor: pointer;
+}
+ul :nth-child(1){
+    color: #CB3362;
+}
+
+.navbar li:hover{
+    color: #C8C10D;
+}
+
+/* ?---------------------Main Home------------------ */
+
+.poster{
+    text-align: center;
+    background-color: #F8F8F8;
+
+}
+
+.newProduct{
+    display: flex;
+    height: 260px;
+    width: 100%;
+    background-color: #EAE7E8;
+    margin-top: 0%;
+    cursor: wait;
+}
+.container1{
+    margin: 60px 100px 10px 300px;
+}
+.container1 h3{
+    color: rgb(112, 74, 74);
+    line-height: 40px;
+}
+.container1 h2 {
+    color: #E32A62;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 35px;
+}
+.container1 p{
+    color: #816666;
+    font-weight: lighter;
+    line-height: 25px;
+}
+.container1 p a{
+    color: #816666;
+}
+.container1 p a:hover{
+    color: #C8C10D;
+}
+
+.ics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: #C8C10D;
+}
+.ics ul{
+    cursor: not-allowed;
+    list-style-type: none;
+    margin: 10px 60px 0px 60px;
+}
+.ics li{
+    cursor: not-allowed;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+.ics img{
+    filter: invert(1);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-color: #E32A62;
+    cursor: grabbing;
+}
+.socics ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 0px 0px ; 
+}
+.socics img{
+    height: 40px;
+    width: 40px;
+    padding: 30px 25px 10px 25px;
+    /* filter: invert(1); */
+}
+.socics h6{
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+.socics h6 span{
+    font-size: 2vh;
+    font-weight: bold;
+    color: whitesmoke;
+}
